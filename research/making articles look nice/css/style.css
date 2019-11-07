@@ -1,0 +1,25 @@
+body
+{
+    background-color: grey;
+}
+
+article
+{
+    margin: 5px 5px 1px 5px;
+    padding: 5px 5px 5px 5px;
+    max-width: 30%;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+}
+
+article > h1
+{
+    text-align: center;
+    margin: 5px auto 5px auto;
+    font-size: 26px;
+}
+article > p
+{
+    font-size: 18px;
+}
