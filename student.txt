@@ -1,0 +1,4 @@
+Student name: Owen van Rijn
+Student number: 645258
+Student class: INF1SD
+URL student Github repository: https://github.com/OwenVanRijn/Webmarkup-Final-Assesment
