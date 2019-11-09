@@ -24,30 +24,34 @@
             <h2>
                 Een taekwondo sportschool in Zuiderpolder
             </h2>
+            <video id="video" autoplay loop muted>
+                <source src="img/timelapse.mp4" type="video/mp4">
+                This browser does not support video playback!
+            </video>
             <nav>
                 <ul>
                     <li>
                         <a href="#maincontent">
-                            Main
+                            Haarlem
                         </a>
                     </li>
                     <li>
                         <a href="#secondarycontent">
-                            Secondary
+                            Omgeving
                         </a>
                     </li>
                     <li>
-                        <a href="#sport">
+                        <a href="#sportcontent">
                             Sport
                         </a>
                     </li>
                     <li>
-                        <a href="#refferal">
-                            Refferal
+                        <a href="#referalcontent">
+                            Referal
                         </a>
                     </li>
                     <li>
-                        <a href="#contact">
+                        <a href="#contactcontent">
                             Contact
                         </a>
                     </li>
@@ -58,13 +62,18 @@
         <!-- Main info, opgave 3,4,5,6,7 -->
 
         <section id="mainarticles">
-
+            <h6 class="invisibility">
+                Silence w3 warnings :^)
+            </h6>
             <!-- Main content -->
-            <section>
-                <article class="textarticles">
-                    <h2 id="maincontent">
-                        Waarom zou je naar haarlem willen gaan?
-                    </h2>
+            <section class="textarticles">
+                <h2 id="maincontent">
+                    Waarom zou je naar haarlem willen gaan?
+                </h2>
+                <article>
+                    <h6 class="invisibility">
+                        Silence w3 warnings :^)
+                    </h6>
                     <p>
                         Haarlem ligt in noord-holland en behoort tot de randstad en is ook een monumentenstad. 
                         Haarlem heeft ongeveer 160000 inwoners.
@@ -73,88 +82,138 @@
                         De stad staat bekent om zijn gezellige sfeer. Ook zijn er veel winkels om in te shoppen. 
                         De stad heeft ook veel historishe monumenten.
                     </p>
-                    <footer>
-                        (footer)
-                    </footer>
                 </article>
+                <aside>
+                    <span id="imghaarlem1">
+                        <img 
+                            src="img/haarlem1.jpg"
+                            title="Overview Haarlem"
+                            alt="Een foto die een deel van de stad laat zien"
+                        />
+                    </span>
+                </aside>
+                <footer>
+                    (footer)
+                </footer>
             </section>
 
             <!-- Secondary content -->
 
-            <section>
-                <article class="textarticles">
-                    <h2 id="secondarycontent">
-                        Waar is haarlem-taekwondo gelegen 
-                    </h2>
+            <section class="textarticles">
+                <h2 id="secondarycontent">
+                    Waar is haarlem-taekwondo gelegen 
+                </h2>
+                <article>
+                    <h6 class="invisibility">
+                        Silence w3 warnings :^)
+                    </h6>
                     <p>
                         (p stuff)
                     </p>
-                    <footer>
-                        (footer)
-                    </footer>
                 </article>
+                <footer>
+                    (footer)
+                </footer>
             </section>
 
             <!-- Sport content -->
 
-            <section>
-
-                <article class="textarticles">
-                    <h2 id="sport">
-                        Sportcontent
-                    </h2>
+            <section class="textarticles">
+                <h2 id="sportcontent">
+                    Sportcontent
+                </h2>
+                <article>
+                    <h6 class="invisibility">
+                        Silence w3 warnings :^)
+                    </h6>
                     <p>
                         (p stuff)
                     </p>
-                    <footer>
-                        (footer)
-                    </footer>
                 </article>
-
+                <footer>
+                    (footer)
+                </footer>
             </section>
 
             <!-- Referral -->
 
-            <section>
-
-                <article class="textarticles">
-                    <h2 id="referral">
-                        Refferal
-                    </h2>
+            <section class="textarticles">
+                <h2 id="referalcontent">
+                    Refferal
+                </h2>
+                <article>
+                    <h6 class="invisibility">
+                        Silence w3 warnings :^)
+                    </h6>
                     <p>
                         (p stuff)
                     </p>
-                    <footer>
-                        (footer)
-                    </footer>
                 </article>
-
+                <footer>
+                    (footer)
+                </footer>
             </section>
 
             <!-- Contact -->
 
-            <section>
+            <section class="textarticles">
+                <h2 id="contactcontent">
+                    Contact
+                </h2>
+                <form
+                    action="http://witan.nl/inholland/testform.php"
+                    method = "post"
+                >
+                    <fieldset id="contactform">
+                        <legend>
+                            Contact Formulier
+                        </legend>
 
-                <article class="textarticles">
-                    <h2 id="contact">
-                        Contact
-                    </h2>
-                    <p>
-                        (p stuff)
-                    </p>
-                    <footer>
-                        (footer)
-                    </footer>
-                </article>
+                        <p>
+                            Naam:
+                        </p>
 
+                        <input
+                            name = "name"
+                            type = "text"
+                        />
+
+                        <p>
+                            Email:
+                        </p>
+
+                        <input
+                            name = "email"
+                            type = "text"
+                        />
+
+                        <p>
+                            Message:
+                        </p>
+
+                        <input
+                            id = "messagebox"
+                            name = "message"
+                            type = "text"
+                        />
+                        <input
+                            type = "submit"
+                            value = "submit"
+                        />
+                    </fieldset>
+                </form>
             </section>
 
         </section>
 
         <section id="finalfooter">
+            <h6 class="invisibility">
+                Silence w3 warnings :^)
+            </h6>
             <footer>
                 &copy; Owen van Rijn INF1SD
             </footer>
         </section>
+
     </body>
 </html>
